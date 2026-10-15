@@ -1,0 +1,6 @@
+{
+  "mean_test_residual": -0.12437205734254912,
+  "lag1_residual_correlation_adjacent_hours": 0.8189784612637807,
+  "adjacent_hour_pairs": 1760,
+  "negative_predictions": 0
+}

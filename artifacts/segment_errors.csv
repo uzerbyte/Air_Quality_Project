@@ -1,0 +1,3 @@
+concentration_segment,n,MAE,mean_residual
+Above training 90th percentile,210,0.8740902984627869,0.47966829589807414
+Below training 90th percentile,1586,0.36763907459638934,-0.20435217977667958

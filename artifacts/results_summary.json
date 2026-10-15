@@ -1,0 +1,45 @@
+{
+  "audit": {
+    "raw_rows": 9471,
+    "raw_columns": 17,
+    "empty_rows": 114,
+    "empty_columns": [
+      "Unnamed: 15",
+      "Unnamed: 16"
+    ],
+    "observations": 9357,
+    "duplicate_timestamps": 0,
+    "start": "2004-03-10 18:00:00",
+    "end": "2005-04-04 14:00:00",
+    "csv_sha256": "13277ae5d8581e80b7be09d47c7d3d06fe9b8e957078f2cf6e859f955e62f996"
+  },
+  "target_missing": 1683,
+  "observed_targets": 7674,
+  "split_boundaries": {
+    "validation": "2004-10-30 00:00:00",
+    "test": "2005-01-16 00:00:00"
+  },
+  "selected_model": "Log-target ridge",
+  "test_metrics": [
+    {
+      "Model": "Mean baseline",
+      "MAE": 1.1208527332496234,
+      "RMSE": 1.3918754538491473,
+      "R2": -0.03167835578060063
+    },
+    {
+      "Model": "Log-target ridge",
+      "MAE": 0.42685664531573425,
+      "RMSE": 0.6755471998938306,
+      "R2": 0.7569727549794892
+    }
+  ],
+  "high_CO_threshold_training_p90": 3.8,
+  "hour_CO_peak": 19,
+  "training_weekday_CO": 2.238890779176591,
+  "training_weekend_CO": 1.4727272727272729,
+  "training_weekday_NO2": 101.56396866840731,
+  "training_weekend_NO2": 77.85221238938053,
+  "minimum_prediction": 0.2415724353540717,
+  "model_file_bytes": 3194
+}

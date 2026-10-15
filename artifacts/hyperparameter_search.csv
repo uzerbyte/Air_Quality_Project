@@ -1,0 +1,5 @@
+Model,parameters,CV_RMSE
+Engineered ridge,{'model__alpha': 1000.0},0.4753465874990368
+Log-target ridge,{'regressor__model__alpha': 1000.0},0.46225741013184596
+Weather-calendar ridge,{'model__alpha': 1000.0},1.1601635906766772
+Random forest,"{'model__max_depth': 8, 'model__min_samples_leaf': 3}",0.3349318843624472

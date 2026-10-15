@@ -1,0 +1,3 @@
+sensor_coverage,n,MAE,mean_residual
+Complete inputs,1711,0.38804119040053175,-0.14446935091846394
+Some missing inputs,85,1.2081889201382212,0.28017464040321904

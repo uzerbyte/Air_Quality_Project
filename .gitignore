@@ -1,0 +1,10 @@
+course_materials/
+private_sources/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+tmp/
+*.zip
+*.xlsx
+
+.DS_Store

@@ -1,0 +1,26 @@
+{
+  "model_name": "Log-target ridge",
+  "recipe": "engineered",
+  "raw_input_columns": [
+    "timestamp",
+    "PT08.S1(CO)",
+    "PT08.S2(NMHC)",
+    "PT08.S3(NOx)",
+    "PT08.S4(NO2)",
+    "PT08.S5(O3)",
+    "T",
+    "RH"
+  ],
+  "target": "CO(GT)",
+  "units": "mg/m3",
+  "task": "same-hour reference concentration estimation",
+  "training_end": "2005-01-14 23:00:00",
+  "test_start": "2005-01-16 00:00:00",
+  "versions": {
+    "python": "3.12.14",
+    "scikit_learn": "1.9.1",
+    "pandas": "3.0.6",
+    "numpy": "2.5.4"
+  },
+  "policy": "abstain when fewer than three sensor responses are present; research use only"
+}
